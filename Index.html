@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ <h1>LA MIA TO-DO LIST</h1>   
+    
+<div class="container">
+    <div class="sidebar">
+        
+         <!---- SEZIONE TO DO LIST---->
+<div class="main">
+   
+
+<!---- PULSANTE ---->   
+<div class="input-row">
+    <input class="taskadd" type="text" id="taskinput" placeholder="Scrivi una task...">
+    <select class="categoryselect" id="categoryselect">
+        <option value="Personale">Personale</option>
+        <option value="Lavoro">Lavoro</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Altro">Altro</option>
+    </select>
+</div>
+<button class="addtask" id="addtask">Aggiungi</button>
+
+<ul class="tasklist" id="tasklist"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

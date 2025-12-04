@@ -1,0 +1,155 @@
+/*--------------STILE DEL TITOLO--------------------*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+
+/*--------------STILE SFONDO BACKGROUND--------------------*/
+    background: linear-gradient(to right, #8E2DE2, #4A00E0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*--------------STILE DELLA SEZIONE INPUT --------------------*/
+.taskadd {
+    font-size: 16px;
+    padding: 3px;
+}   
+
+
+/*--------------STILE DEL PULSANTE--------------------*/
+button {
+    padding: 8px 25px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    margin-left: 10px;
+}
+
+/*--------------EFFETTO HOVER PULSANTE AGGIUNTA TASK--------------------*/
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.92);
+}
+
+
+/*--------------EFFETTI PULSANTE DELETE--------------------*/
+.delete-button {
+    padding: 5px 15px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.sidebar {
+    width: 600px;
+    background: linear-gradient(135deg, #ee0979, #ff6a00);
+    background-size: 300% 300%;
+    padding: 0px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    animation-name: waveGradient;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+li {
+    list-style: none;
+}
+
+@keyframes waveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.categoryselect {
+    padding: 5px 5px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.addtask {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    animation-name: pulsanteaggiungi;   
+    animation-duration: 0.4s;
+}
+
+.tasklist {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.delete-button {
+    font-size: 15px ;
+    padding: 5px 15px;
+}
+
+@keyframes pulsanteaggiungi {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
