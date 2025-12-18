@@ -1,9 +1,3 @@
-Perfetto. Vado dritto al punto e ti preparo **una descrizione pronta stile GitHub “About / README”**, coerente con l’esempio di NinjaSketch ma adattata a un **Todo List project serio da dev**, non da tutorialino.
-
-Puoi **copiarla e incollarla così com’è** e, se vuoi, dopo la rifiniamo ancora più “portfolio-killer”.
-
----
-
 ## 📝 TodoList
 
 A clean and functional Todo List application built to practice real-world frontend development patterns.
@@ -130,4 +124,3 @@ Open the local URL shown in the terminal (usually `http://localhost:5173`) to vi
 
 ---
 
-Dimmi tu e si spinge. 🚀
